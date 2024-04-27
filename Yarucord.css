@@ -1,0 +1,234 @@
+/**
+ * @name Yarucord
+ * @author Nastro_
+ * @description Discord With Ubuntu Aestetic
+ * @version 0.0.1
+ */
+:root{
+    --font-primary: "Ubuntu";
+    --font-display: "Ubuntu";
+    --font-headline: "Ubuntu";
+    --font-code: "Ubuntu Mono";
+}
+
+:root:lang(bg),
+:root:lang(el),
+:root:lang(ru),
+:root:lang(uk) {
+    --font-primary: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-headline: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace
+}
+
+ :root:lang(ko) {
+    --font-primary: "gg sans", "Apple SD Gothic Neo", NanumBarunGothic, "\B9D1\C740   \ACE0\B515", "Malgun Gothic", Gulim, êµ´ë¦¼, Dotum, ë‹ì›€, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: "gg sans", "Apple SD Gothic Neo", NanumBarunGothic, "\B9D1\C740   \ACE0\B515", "Malgun Gothic", Gulim, êµ´ë¦¼, Dotum, ë‹ì›€, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-headline: "ABC Ginto Nord", "Apple SD Gothic Neo", NanumBarunGothic, "\B9D1\C740   \ACE0\B515", "Malgun Gothic", Gulim, êµ´ë¦¼, Dotum, ë‹ì›€, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace
+}
+
+:root:lang(ja) {
+    --font-primary: "gg sans", "Hiragino Sans", "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", ãƒ¡ã‚¤ãƒªã‚ª, Meiryo, Osaka, "MS PGothic", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: "gg sans", "Hiragino Sans", "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", ãƒ¡ã‚¤ãƒªã‚ª, Meiryo, Osaka, "MS PGothic", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-headline: "ABC Ginto Nord", "Hiragino Sans", "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "Hiragino Kaku Gothic ProN", ãƒ¡ã‚¤ãƒªã‚ª, Meiryo, Osaka, "MS PGothic", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace
+}
+
+:root:lang(zh-CN) {
+    --font-primary: "gg sans", "Microsoft YaHei New", å¾®è½¯é›…é»‘, "Microsoft Yahei", "Microsoft JhengHei", å®‹ä½“, SimSun, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: "gg sans", "Microsoft YaHei New", å¾®è½¯é›…é»‘, "Microsoft Yahei", "Microsoft JhengHei", å®‹ä½“, SimSun, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-headline: "ABC Ginto Nord", "Microsoft YaHei New", å¾®è½¯é›…é»‘, "Microsoft Yahei", "Microsoft JhengHei", å®‹ä½“, SimSun, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace
+}
+
+:root:lang(zh-TW) {
+    --font-primary: "gg sans", "Microsoft JhengHei", å¾®è»Ÿæ­£é»‘é«”, "Microsoft JhengHei UI", "Microsoft YaHei", å¾®è»Ÿé›…é»‘, å®‹ä½“, SimSun, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: "gg sans", "Microsoft JhengHei", å¾®è»Ÿæ­£é»‘é«”, "Microsoft JhengHei UI", "Microsoft YaHei", å¾®è»Ÿé›…é»‘, å®‹ä½“, SimSun, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-headline: "ABC Ginto Nord", "Microsoft JhengHei", å¾®è»Ÿæ­£é»‘é«”, "Microsoft JhengHei UI", "Microsoft YaHei", å¾®è»Ÿé›…é»‘, å®‹ä½“, SimSun, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-code: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace
+}
+
+/* Standard Buttons */
+.lookFilled__950dd.colorGreen__75c93,
+.lookFilled__950dd.colorGreen__75c93:disabled {
+	background-color: var(--status-positive-background);
+}
+.lookFilled__950dd.colorGreen__75c93:hover {
+	background-color: #3A996B;
+}
+.lookFilled__950dd.colorRed__5a617,
+.lookFilled__950dd.colorRed__5a617:disabled {
+	background-color: var(--status-danger-background);
+}
+.lookFilled__950dd.colorRed__5a617:hover {
+	background-color: #BC3439;
+}
+.lookFilled__950dd.colorBrand__27d57,
+.lookFilled__950dd.colorBrand__27d57:disabled {
+	background-color: #E95420;
+}
+.lookFilled__950dd.colorBrand__27d57:hover {
+	background-color:#ed7245;
+}
+.theme-dark .lookFilled__950dd.colorPrimary_ebe632, 
+.theme-dark .lookFilled__950dd.colorPrimary_ebe632:disabled {
+	background-color: #292929;
+	border: 1px solid #292929;
+}
+.theme-dark .lookFilled__950dd.colorPrimary_ebe632:hover {
+	background-color: #313131;
+	border: 1px solid #313131;
+}
+
+.theme-dark {
+
+    --blurple-replace: #E95420;
+    --background-accent: #E95420;
+    --background-floating: #111111;
+    --background-mentioned: #77295333;
+    --background-mentioned-hover: #77295355;
+    --background-message-highlight: #E9542033;
+    --background-message-highlight-hover:#E9542055;
+    --background-message-hover: #E9542033;
+    --background-modifier-accent: #111111;
+    --background-modifier-accent-2: #111111;
+    --background-modifier-active: #111111;
+    --background-modifier-hover: #E9532033;
+    --background-modifier-selected: #E9532055;
+    --background-nested-floating: #333333;
+    --background-primary: #111111;
+    --background-secondary: #333333;
+    --background-secondary-alt: #333333;
+    --background-tertiary: #333333;
+
+    --bg-base-primary: #111111;
+    --bg-base-secondary: #333333;
+    --bg-base-tertiary: #333333;
+
+    --button-creator-revenue-background: #E95420;
+
+    --button-secondary-background: #E95420;
+    --button-secondary-background-active: #ba3f12;
+    --button-secondary-background-disabled: #333333;
+    --button-secondary-background-hover: #ed7245;
+    
+    --card-gradient-bg: #111111;
+    --card-gradient-pressed-bg: #333333;
+    --card-primary-bg: #11111177;
+    --card-primary-pressed-bg: #11111155;
+    --card-secondary-bg: #33333377;
+    --card-secondary-pressed-bg: #33333355;
+
+    --channel-icon: #AEA79F;
+    --channel-text-area-placeholder: #AEA79F;
+    --channels-default: #AEA79F;
+    --channeltextarea-background: #333333;
+    --chat-background: #111111;
+    --chat-border: #333333;
+    --chat-input-container-background: #111111;
+    
+    --header-muted: #AEA79F;
+    --header-primary: #e8e6e3;
+    --header-secondary: #8a8075;
+
+    --home-background: #333333;
+    --home-card-resting-border: #111111;
+    
+    --icon-muted: #333333;
+    --icon-primary: #AEA79F;
+    --icon-secondary: #8a8075;
+    
+    --interactive-active: #AEA79F;
+    --interactive-hover: #e8e6e3; 
+    --interactive-muted: #8a8075;
+    --interactive-normal: #AEA79F;
+    
+    --mention-background: #E9542077;
+    --mention-foreground: #e8e6e3;
+
+    --modal-background: #333333;
+    --modal-footer-background: #262626;
+
+    --scrollbar-auto-scrollbar-color-thumb: #111111;
+    --scrollbar-auto-scrollbar-color-track: #333333;
+    --scrollbar-auto-thumb: #111111;
+    --scrollbar-auto-track: #333333;
+    --scrollbar-thin-thumb: #111111;
+    --scrollbar-thin-track: #333333;
+    
+    --text-brand: #AEA79F;
+    --text-link: #E95420;
+    --text-muted: #8a8075;
+    --text-normal: #e8e6e3;
+    --text-primary:#e8e6e3;
+    --text-secondary: #AEA79F; 
+    
+    --black: #111111;
+    --focus-primary: #E95420;
+
+}
+
+/* folder background */
+
+.wrapper__216eb .expandedFolderBackground_b1385f {
+	background-color: #222222;
+}
+
+/* add server & discovery button */
+.wrapper__216eb .circleIconButton__05cf2[data-list-item-id="guildsnav___create-join-button"],
+.wrapper__216eb .circleIconButton__05cf2[data-list-item-id="guildsnav___guild-discover-button"] {
+	
+	color: #E95420;
+}
+.wrapper__216eb .circleIconButton__05cf2.selected_aded59:hover,
+.wrapper__216eb .circleIconButton__05cf2.selected_aded59 {
+	background-color: #E95420;
+	color: #e8e6e3;
+}
+
+/* Server Discovery */
+
+/* Background/Header */
+.theme-dark .pageWrapper_c182d3 {
+	background-color: #111111;
+}
+
+.root_a28985.small_f8e677 .message_ff43e6 {
+	background-color: #111111;
+	box-shadow: none;
+}
+
+/* user member list */
+.container_f79ab4,
+.container_f79ab4 .members__573eb,
+.container_f79ab4 .members__573eb > div {
+	background: #111111;
+}
+.container_f79ab4 .members__573eb .member_b44d5d {
+	background-color: transparent !important;
+}
+
+.members__573eb .botTag__4211a {
+	background-color: #E95420;
+}
+
+
+.container_e1958d .actionButtons__85e3c .button_b82d53.buttonColor__7bad9, 
+.container_e1958d .actionButtons__85e3c .button_b82d53.buttonColor__7bad9:disabled {
+	background-color: #111111;
+}
+.container_e1958d .actionButtons__85e3c .button_b82d53.buttonColor__7bad9:hover {
+	background-color: #222222;
+}
+.botTagCozy__85d43, .botTag__11e95, .botTagRegular_fc4b4a, .botTag__4211a, .rem_be1e7a{
+    background-color: #E95420;
+}
+
+.wrapper__53064, .interactive:hover{
+    background-color: #E9532055;
+}
+
+.focused_dcafb9{
+    background-color: #E95420;
+}

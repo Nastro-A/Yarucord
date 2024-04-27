@@ -85,24 +85,24 @@
 
     --blurple-replace: #E95420;
     --background-accent: #E95420;
-    --background-floating: #111111;
+    --background-floating: #1e1e1e;
     --background-mentioned: #77295333;
     --background-mentioned-hover: #77295355;
     --background-message-highlight: #E9542033;
     --background-message-highlight-hover:#E9542055;
     --background-message-hover: #E9542033;
-    --background-modifier-accent: #111111;
-    --background-modifier-accent-2: #111111;
-    --background-modifier-active: #111111;
+    --background-modifier-accent: #1e1e1e;
+    --background-modifier-accent-2: #1e1e1e;
+    --background-modifier-active: #1e1e1e;
     --background-modifier-hover: #E9532033;
     --background-modifier-selected: #E9532055;
     --background-nested-floating: #333333;
-    --background-primary: #111111;
+    --background-primary: #1e1e1e;
     --background-secondary: #333333;
     --background-secondary-alt: #333333;
     --background-tertiary: #333333;
 
-    --bg-base-primary: #111111;
+    --bg-base-primary: #1e1e1e;
     --bg-base-secondary: #333333;
     --bg-base-tertiary: #333333;
 
@@ -113,10 +113,10 @@
     --button-secondary-background-disabled: #333333;
     --button-secondary-background-hover: #ed7245;
     
-    --card-gradient-bg: #111111;
+    --card-gradient-bg: #1e1e1e;
     --card-gradient-pressed-bg: #333333;
-    --card-primary-bg: #11111177;
-    --card-primary-pressed-bg: #11111155;
+    --card-primary-bg: #1e1e1e77;
+    --card-primary-pressed-bg: #1e1e1e55;
     --card-secondary-bg: #33333377;
     --card-secondary-pressed-bg: #33333355;
 
@@ -124,16 +124,16 @@
     --channel-text-area-placeholder: #AEA79F;
     --channels-default: #AEA79F;
     --channeltextarea-background: #333333;
-    --chat-background: #111111;
+    --chat-background: #1e1e1e;
     --chat-border: #333333;
-    --chat-input-container-background: #111111;
+    --chat-input-container-background: #1e1e1e;
     
     --header-muted: #AEA79F;
     --header-primary: #e8e6e3;
     --header-secondary: #8a8075;
 
     --home-background: #333333;
-    --home-card-resting-border: #111111;
+    --home-card-resting-border: #1e1e1e;
     
     --icon-muted: #333333;
     --icon-primary: #AEA79F;
@@ -150,11 +150,11 @@
     --modal-background: #333333;
     --modal-footer-background: #262626;
 
-    --scrollbar-auto-scrollbar-color-thumb: #111111;
+    --scrollbar-auto-scrollbar-color-thumb: #1e1e1e;
     --scrollbar-auto-scrollbar-color-track: #333333;
-    --scrollbar-auto-thumb: #111111;
+    --scrollbar-auto-thumb: #1e1e1e;
     --scrollbar-auto-track: #333333;
-    --scrollbar-thin-thumb: #111111;
+    --scrollbar-thin-thumb: #1e1e1e;
     --scrollbar-thin-track: #333333;
     
     --text-brand: #AEA79F;
@@ -191,11 +191,11 @@
 
 /* Background/Header */
 .theme-dark .pageWrapper_c182d3 {
-	background-color: #111111;
+	background-color: #1e1e1e;
 }
 
 .root_a28985.small_f8e677 .message_ff43e6 {
-	background-color: #111111;
+	background-color: #1e1e1e;
 	box-shadow: none;
 }
 
@@ -203,7 +203,7 @@
 .container_f79ab4,
 .container_f79ab4 .members__573eb,
 .container_f79ab4 .members__573eb > div {
-	background: #111111;
+	background: #1e1e1e;
 }
 .container_f79ab4 .members__573eb .member_b44d5d {
 	background-color: transparent !important;
@@ -216,7 +216,7 @@
 
 .container_e1958d .actionButtons__85e3c .button_b82d53.buttonColor__7bad9, 
 .container_e1958d .actionButtons__85e3c .button_b82d53.buttonColor__7bad9:disabled {
-	background-color: #111111;
+	background-color: #1e1e1e;
 }
 .container_e1958d .actionButtons__85e3c .button_b82d53.buttonColor__7bad9:hover {
 	background-color: #222222;
@@ -229,6 +229,17 @@
     background-color: #E9532055;
 }
 
-.focused_dcafb9{
+.focused_dcafb9:hover{ 
     background-color: #E95420;
 }
+
+.colorBrand__9bb0f{
+    color:#E95420;
+}
+
+.item__183e8:hover, .labelContainer__4f869, .colorDefault_e361cf{
+    .radioSelection__41d1e{
+        fill: #e8e6e3;
+    }
+}
+

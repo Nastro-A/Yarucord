@@ -184,7 +184,7 @@
 .wrapper__216eb .circleIconButton__05cf2.selected_aded59:hover,
 .wrapper__216eb .circleIconButton__05cf2.selected_aded59 {
 	background-color: #E95420;
-	color: #e8e6e3;
+	color: #1e1e1e;
 }
 
 /* Server Discovery */
@@ -243,3 +243,31 @@
     }
 }
 
+.modeUnreadImportant__35358{
+    background-color: #E9542011;
+    border-radius: 5px;
+}
+
+.unread__48cf4, .unreadImportant_e8bb44{
+    background-color: #E95420;
+}
+
+.newMessagesBar__8b272, .barBase__8839d{
+ background-color: #E95420;
+}
+
+.checkbox__378d3{
+    fill: #E95420;
+}
+
+.childWrapper_a6ce15 svg path, .childWrapperNoHoverBg__7e8f1 svg path{
+    fill:#E95420;
+}
+
+.wrapper__8436d:hover .childWrapper_a6ce15,.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+    background-color: #E95420;
+}
+
+.selected_ae80f7 svg path{
+    fill:#1e1e1e;
+}
